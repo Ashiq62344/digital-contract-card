@@ -317,6 +317,17 @@ h1{
   .btn:hover,.save:hover,.btn:active,.save:active{transform:none}
 }
 
+
+/* v2 premium */
+.cardbtn{position:relative;overflow:hidden;transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s}
+.cardbtn:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(0,0,0,.14)}
+.cardbtn:active{transform:scale(.97);box-shadow:0 3px 8px rgba(0,0,0,.16)}
+.cardbtn::after{content:'';position:absolute;inset:-40%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-180%) rotate(20deg);transition:transform .8s}
+.cardbtn:hover::after{transform:translateX(180%) rotate(20deg)}
+@supports (-webkit-touch-callout:none){
+ body{padding-top:max(8px,env(safe-area-inset-top));}
+}
+
 </style>
 </head>
 <body>
