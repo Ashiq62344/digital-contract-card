@@ -1,0 +1,18 @@
+UPDATED ICON VERSION
+
+Upload these files to the ROOT of your GitHub repository:
+- index.html
+- ashiqur-rahman.vcf
+- 2026_company_profile_my.pdf
+
+Replace the old index.html, commit changes, wait 1–2 minutes, then refresh in a Private/Incognito tab.
+
+Changes made:
+- Recognizable WhatsApp logo
+- Recognizable LinkedIn logo
+- Multicolor Google Maps pin
+- Clear email envelope
+- Clear phone icon
+- Red PDF document icon
+
+Your embedded profile photo and logo remain unchanged.
