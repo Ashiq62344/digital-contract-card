@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashiqur Rahman | Digital Contact Card</title>
+  <style>
+    :root{--green:#073d2b;--green2:#0c563b;--lime:#74b82a;--gold:#c69a43;--cream:#f6f2e8;--text:#10251d;}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(145deg,#062f22,#0a5138);color:var(--text);min-height:100vh;padding:22px}
+    .shell{width:min(680px,100%);margin:auto;background:var(--cream);border-radius:28px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.28)}
+    .hero{background:linear-gradient(145deg,#052f22,#0b4d36);padding:34px 26px 30px;text-align:center;color:white;position:relative}
+    .hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--gold),var(--lime),var(--gold))}
+    .logo{width:128px;height:128px;object-fit:contain;background:white;border-radius:24px;padding:13px;box-shadow:0 10px 26px rgba(0,0,0,.2)}
+    h1{margin:18px 0 5px;font-size:30px;letter-spacing:.2px} .role{margin:0;font-size:16px;color:#d7e7df} .company{margin:7px 0 0;font-weight:700;color:#9bd14d}
+    .content{padding:24px} .grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    a.button{text-decoration:none;color:var(--text);background:white;border:1px solid #e2dccd;border-radius:16px;padding:16px 14px;display:flex;align-items:center;gap:12px;font-weight:700;box-shadow:0 5px 14px rgba(16,37,29,.07)}
+    a.button:hover{transform:translateY(-1px)} .icon{width:39px;height:39px;border-radius:12px;background:#e8f3df;display:grid;place-items:center;font-size:20px;flex:0 0 auto}
+    .wide{grid-column:1/-1} .address{margin:20px 0 0;padding:17px;border-radius:16px;background:#ece7da;font-size:14px;line-height:1.55}
+    .footer{padding:0 24px 24px;text-align:center;color:#597066;font-size:12px}
+    @media(max-width:520px){body{padding:0}.shell{border-radius:0;min-height:100vh}.grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <img class="logo" src="msc-logo.png" alt="MSC logo">
+      <h1>Ashiqur Rahman</h1>
+      <p class="role">Head of Operations & Facility Management</p>
+      <p class="company">Manahi Al Shareef Facility Management</p>
+    </section>
+    <section class="content">
+      <div class="grid">
+        <a class="button" href="tel:+966549882435"><span class="icon">☎</span><span>Call Now</span></a>
+        <a class="button" href="https://wa.me/966549882435" target="_blank" rel="noopener"><span class="icon">◉</span><span>WhatsApp</span></a>
+        <a class="button" href="mailto:ashiq@m-alshareef.com"><span class="icon">✉</span><span>Send Email</span></a>
+        <a class="button" href="https://maps.app.goo.gl/QqpWqockpkekaYCB7" target="_blank" rel="noopener"><span class="icon">⌖</span><span>Open Google Maps</span></a>
+        <a class="button" href="https://www.linkedin.com/company/manahi-al-shareeh-contracting-co/" target="_blank" rel="noopener"><span class="icon">in</span><span>LinkedIn</span></a>
+        <a class="button" href="https://drive.google.com/file/d/1TzCoQGENqED__FkGMnBPPrLJRklZA_yE/view?usp=drivesdk" target="_blank" rel="noopener"><span class="icon">PDF</span><span>Company Profile</span></a>
+        <a class="button wide" href="ashiqur-rahman.vcf" download><span class="icon">＋</span><span>Save Contact</span></a>
+      </div>
+      <div class="address"><strong>Office</strong><br>Al Ziab Commercial Center, Floor No. 3, Office No. 23, Al-Malaz, Salah Al Dien St., Riyadh, Saudi Arabia</div>
+    </section>
+    <div class="footer">Professional • Reliable • Responsive</div>
+  </main>
+</body>
+</html>
